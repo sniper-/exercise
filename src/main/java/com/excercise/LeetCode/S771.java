@@ -25,7 +25,7 @@ package com.excercise.LeetCode;
  * @Author: sniper
  * @Date: 201909 10:22
  */
-public class LeetCode771 {
+public class S771 {
 
     public int numJewelsInStones(String J, String S) {
         int count = 0;

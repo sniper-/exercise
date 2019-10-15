@@ -31,7 +31,7 @@ package com.excercise.LeetCode;
  * @Author: sniper
  * @Date: 20190929 10:07
  */
-public class LeetCode650 {
+public class S650 {
     /**
      * Recursive
      */

@@ -6,7 +6,7 @@ import java.util.Set;
 import static java.util.Arrays.sort;
 
 /**
- * ClassName: LeetCode268
+ * ClassName: S268
  * Version:
  * Description:
  *
@@ -27,8 +27,8 @@ import static java.util.Arrays.sort;
  * @Author: sniper
  * @Date: 2019/09/30 13:52
  */
-public class LeetCode268 {
-    public LeetCode268() { }
+public class S268 {
+    public S268() { }
 
     /**
      * Description: 排序后数组下标应该等于对应值

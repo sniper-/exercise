@@ -1,7 +1,7 @@
 package com.excercise.LeetCode;
 
 /**
- * ClassName: LeetCode206
+ * ClassName: S206
  * Version:
  * Description:
  *
@@ -19,13 +19,13 @@ package com.excercise.LeetCode;
  * @Author: sniper
  * @Date: 2019/09/30 15:06
  */
-public class LeetCode206 {
-    public LeetCode206() { }
+public class S206 {
+    public S206() { }
 
     /**
      * Description: 迭代
      * @Param: [head]
-     * @return: com.excercise.LeetCode.LeetCode206.ListNode
+     * @return: com.excercise.LeetCode.S206.ListNode
      * @Author: sniper
      * @Date: 2019/9/30 15:07
      */

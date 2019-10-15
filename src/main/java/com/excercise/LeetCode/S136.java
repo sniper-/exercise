@@ -3,7 +3,7 @@ package com.excercise.LeetCode;
 import static java.util.Arrays.sort;
 
 /**
- * ClassName: LeetCode136
+ * ClassName: S136
  * Version:
  * Description:
  *
@@ -27,7 +27,7 @@ import static java.util.Arrays.sort;
  * @Author: sniper
  * @Date: 2019/09/30 11:23
  */
-public class LeetCode136 {
+public class S136 {
 
     public int singleNumber(int[] nums) {
         /**

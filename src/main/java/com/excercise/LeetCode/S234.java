@@ -1,7 +1,7 @@
 package com.excercise.LeetCode;
 
 /**
- * ClassName: LeetCode234
+ * ClassName: S234
  * Version:
  * Description:
  *
@@ -22,8 +22,8 @@ package com.excercise.LeetCode;
  * @Author: sniper
  * @Date: 2019/10/08 14:34
  */
-public class LeetCode234 {
-    public LeetCode234() {
+public class S234 {
+    public S234() {
     }
 
 

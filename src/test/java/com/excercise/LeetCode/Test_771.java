@@ -10,7 +10,7 @@ import org.junit.Test;
  * @Date: 201909 10:23
  */
 public class Test_771 {
-    LeetCode771 leetCode771 = new LeetCode771();
+    S771 leetCode771 = new S771();
 
     @Test
     public void Test_771(){

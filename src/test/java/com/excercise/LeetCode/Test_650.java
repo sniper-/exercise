@@ -10,7 +10,7 @@ import org.junit.Test;
  * @Date: 201909 10:08
  */
 public class Test_650 {
-    LeetCode650 leetCode650 = new LeetCode650();
+    S650 leetCode650 = new S650();
 
     @Test
     public void TestRecursive(){

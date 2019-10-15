@@ -1,7 +1,7 @@
 package com.excercise.LeetCode;
 
 /**
- * ClassName: LeetCode104
+ * ClassName: S104
  * Version:
  * Description:
  *
@@ -25,8 +25,8 @@ package com.excercise.LeetCode;
  * @Author: sniper
  * @Date: 2019/10/08 14:42
  */
-public class LeetCode104 {
-    public LeetCode104() {
+public class S104 {
+    public S104() {
     }
 
     public int maxDepthRecursive(TreeNode root) {

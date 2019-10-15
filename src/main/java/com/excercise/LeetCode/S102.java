@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * ClassName: LeetCode102
+ * ClassName: S102
  * Version:
  * Description:
  *
@@ -33,8 +33,8 @@ import java.util.Queue;
  * @Author: sniper
  * @Date: 2019/09/30 17:02
  */
-public class LeetCode102 {
-    public LeetCode102() {
+public class S102 {
+    public S102() {
     }
 
     public List<List<Integer>> levelOrder(TreeNode root) {
