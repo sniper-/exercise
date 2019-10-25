@@ -13,13 +13,14 @@ import org.junit.Test;
  */
 public class Test344 {
     S344 s344 = new S344();
+
     public Test344() {
     }
 
     @Test
-    public void testS344(){
-        char[] s1 = {'H','a','n','n','a','h'};
-        char[] s2 = {'h','e','l','l','o'};
+    public void testS344() {
+        char[] s1 = {'H', 'a', 'n', 'n', 'a', 'h'};
+        char[] s2 = {'h', 'e', 'l', 'l', 'o'};
         s344.reverseString(s2);
     }
 }

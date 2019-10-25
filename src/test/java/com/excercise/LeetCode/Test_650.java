@@ -18,19 +18,19 @@ public class Test_650 {
     S650 leetCode650 = new S650();
 
     @Test
-    public void TestRecursive(){
+    public void TestRecursive() {
         int steps = leetCode650.minStepsRecursive(36);
         System.out.println(steps);
     }
 
     @Test
-    public void TestNonRecursive(){
+    public void TestNonRecursive() {
         int steps = leetCode650.minStepsNonRecursive(36);
         System.out.println(steps);
     }
 
     @Test
-    public void test11(){
+    public void test11() {
         String s = "{\"marketAcctNo\":\"083\",\"markId\":\"MB3017\",\"name\":\"\\u9646\\u60df\\u660a\",\"idType\":\"1\",\"idNo\":\"31011519850310299X\",\"phoneNo\":\"13730099864\",\"nation\":\"cn\",\"email\":\"1@111.com\",\"tranMode\":1,\"bankProId\":\"B002\",\"cardNo\":\"325290000012\"}";
         JSONObject json = JSONObject.parseObject(s);
         Map<String, Object> map = json;

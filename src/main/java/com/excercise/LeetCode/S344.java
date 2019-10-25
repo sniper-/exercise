@@ -34,7 +34,7 @@ public class S344 {
         int end = s.length - 1;
         char temp = 0;
 
-        for (int i = 0; i < s.length>>1; i++) {
+        for (int i = 0; i < s.length >> 1; i++) {
             temp = s[i];
             s[i] = s[end];
             s[end--] = temp;

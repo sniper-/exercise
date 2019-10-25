@@ -14,17 +14,17 @@ public class S495 {
     }
 
     public int findPoisonedDuration(int[] timeSeries, int duration) {
-        if(timeSeries.length<1){
+        if (timeSeries.length < 1) {
             return 0;
         }
-        int count=0;
-        for(int i=0; i<timeSeries.length-1; i++){
-            if(timeSeries[i]+duration < timeSeries[i+1]){
+        int count = 0;
+        for (int i = 0; i < timeSeries.length - 1; i++) {
+            if (timeSeries[i] + duration < timeSeries[i + 1]) {
                 count += duration;
-            }else{
-                count += (timeSeries[i+1]-timeSeries[i]);
+            } else {
+                count += (timeSeries[i + 1] - timeSeries[i]);
             }
         }
-        return count+duration;
+        return count + duration;
     }
 }

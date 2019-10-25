@@ -4,15 +4,15 @@ package com.excercise.LeetCode;
  * ClassName: S234
  * Version:
  * Description:
- *
+ * <p>
  * 请判断一个链表是否为回文链表。
- *
+ * <p>
  * 示例 1:
- *
+ * <p>
  * 输入: 1->2
  * 输出: false
  * 示例 2:
- *
+ * <p>
  * 输入: 1->2->2->1
  * 输出: true
  * 进阶：
@@ -29,7 +29,8 @@ public class S234 {
 
     /**
      * Description: O(n),O(n)
-     *   新建一个反转链表，每个值都相等则为回文链表
+     * 新建一个反转链表，每个值都相等则为回文链表
+     *
      * @Param: [head]
      * @return: boolean
      * @Author: sniper
@@ -37,7 +38,7 @@ public class S234 {
      */
     public boolean isPalindromeAll(ListNode head) {
 
-        if(head == null){
+        if (head == null) {
             return true;
         }
         ListNode cur = new ListNode(head.val);
@@ -48,8 +49,8 @@ public class S234 {
             next.next = cur;
             cur = next;
         }
-        while(cur != null){
-            if(head.val != cur.val){
+        while (cur != null) {
+            if (head.val != cur.val) {
                 return false;
             }
             cur = cur.next;
@@ -60,32 +61,34 @@ public class S234 {
 
     /**
      * Description: O(n),O(n)
-     *   使用快慢指针找中点，翻转前半部分链表同后半部分作对比
+     * 使用快慢指针找中点，翻转前半部分链表同后半部分作对比
+     *
      * @Param: [head]
      * @return: boolean
      * @Author: sniper
      * @Date: 2019/10/8 14:34
      */
-    public boolean isPalindromeHalf(ListNode head){
+    public boolean isPalindromeHalf(ListNode head) {
         //TODO
         return true;
     }
 
     /**
      * Description: O(n),O(1)
-     *   数学方法，遍历一遍，链表转数字，若相等则为回文链表
+     * 数学方法，遍历一遍，链表转数字，若相等则为回文链表
+     *
      * @Param: [head]
      * @return: boolean
      * @Author: sniper
      * @Date: 2019/10/8 14:34
      */
-    public boolean isPalindromeMath(ListNode head){
-        float s1 = 0,s2 = 0,t = 1;
+    public boolean isPalindromeMath(ListNode head) {
+        float s1 = 0, s2 = 0, t = 1;
 
-        while(head != null) {
-            s1 = s1*10 + head.val;
-            s2 = s2 + t*head.val;
-            t = t*10;
+        while (head != null) {
+            s1 = s1 * 10 + head.val;
+            s2 = s2 + t * head.val;
+            t = t * 10;
             head = head.next;
         }
         return s1 == s2;

@@ -9,7 +9,7 @@ public class Test_804 {
     S804 s804 = new S804();
 
     @Test
-    public void test804(){
+    public void test804() {
         String[] words = {"gin", "zen", "gig", "msg"};
 //        Set<String> nameSet = new HashSet<String>();
 //        nameSet.add("1");

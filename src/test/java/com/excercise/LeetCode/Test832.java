@@ -13,17 +13,18 @@ import org.junit.Test;
  */
 public class Test832 {
     S832 s832 = new S832();
+
     public Test832() {
     }
 
     @Test
-    public void test832(){
-        int[][] src1 = { {1,1,0,0}, {1,0,0,1}, {0,1,1,1}, {1,0,1,0} };
-        int[][] src2 = { {1,1,0}, {1,0,1}, {0,0,0} };
-        int[][] src3 = { {1} };
+    public void test832() {
+        int[][] src1 = {{1, 1, 0, 0}, {1, 0, 0, 1}, {0, 1, 1, 1}, {1, 0, 1, 0}};
+        int[][] src2 = {{1, 1, 0}, {1, 0, 1}, {0, 0, 0}};
+        int[][] src3 = {{1}};
         int[][] res = s832.flipAndInvertImage(src3);
-        for (int[] tmp: res) {
-            for(int i=0; i<tmp.length; i++){
+        for (int[] tmp : res) {
+            for (int i = 0; i < tmp.length; i++) {
                 System.out.println(tmp[i]);
             }
         }

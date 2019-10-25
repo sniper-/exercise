@@ -9,21 +9,25 @@ package com.excercise.DataStructure_Algorithm.TreeElements;
  */
 public class BinaryTree {
 
-    class BTreeNode{
+    class BTreeNode {
         int value;
         BTreeNode left;
         BTreeNode right;
-        BTreeNode(int x){value=x;}
+
+        BTreeNode(int x) {
+            value = x;
+        }
     }
 
     /**
      * Description: Turn an array to a BinaryTree
+     *
      * @Param: [array]
      * @return: root node of the tree
      * @Author: sniper
      * @Date: 2019/9/29 10:40
      */
-    public BTreeNode BinaryTree(String array){
+    public BTreeNode BinaryTree(String array) {
         //TODO
         return null;
     }

@@ -16,7 +16,7 @@ public class Test_1021 {
 
 
     @Test
-    public void test1021(){
+    public void test1021() {
         System.out.println(s1021.removeOuterParentheses(""));
         System.out.println(s1021.removeOuterParentheses("(()())(())"));
         System.out.println(s1021.removeOuterParentheses("(()())(())(()(()))"));
