@@ -36,21 +36,24 @@ public class S650 {
      * Recursive
      */
     public int minStepsRecursive(int n) {
-        if (n == 1)
+        if (n == 1) {
             return 1;
+        }
 
         int maxDivisor = maxDivisor(n);
-        if (maxDivisor == 0)
+        if (maxDivisor == 0) {
             return n;
-        else
+        }else {
             return n / maxDivisor + minStepsRecursive(maxDivisor);
+        }
     }
 
     private int maxDivisor(int x) {
         int theOne = 0;
         for (int i = 2; i < x; i++) {
-            if (x % i == 0)
+            if (x % i == 0) {
                 theOne = i;
+            }
         }
         return theOne;
     }

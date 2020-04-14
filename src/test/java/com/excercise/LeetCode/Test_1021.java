@@ -22,4 +22,25 @@ public class Test_1021 {
         System.out.println(s1021.removeOuterParentheses("(()())(())(()(()))"));
         System.out.println(s1021.removeOuterParentheses("()()"));
     }
+
+    @Test
+    public void test289(){
+        S289 s289 = new S289();
+        int[][] input = {{1,2,3},{4,5,6}};
+        s289.GameOfLife(input);
+    }
+
+    @Test
+    public void test1035(){
+        S1035 s1035 =  new S1035();
+//        int[] A = {1,3,7,1,7,5};
+//        int[] B = {1,9,2,5,1};
+//        int[] A = {2,5,1,2,5};
+//        int[] B = {10,5,2,1,5,2};
+//        int[] A = {1};
+//        int[] B = {1,3};
+        int[] A = {1,1,2,1,2};
+        int[] B = {1,3,2,3,1};
+        System.out.println(s1035.maxUncrossedLines(A, B));
+    }
 }
