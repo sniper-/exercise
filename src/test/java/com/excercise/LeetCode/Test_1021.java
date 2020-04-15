@@ -43,4 +43,11 @@ public class Test_1021 {
         int[] B = {1,3,2,3,1};
         System.out.println(s1035.maxUncrossedLines(A, B));
     }
+
+    @Test
+    public void test673(){
+        S673 s673 = new S673();
+        int[] in = {1,2,4,3,5,4,7,2};
+        System.out.println(s673.findNumberOfLIS(in));
+    }
 }
