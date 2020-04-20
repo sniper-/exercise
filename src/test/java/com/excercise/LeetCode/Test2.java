@@ -18,6 +18,12 @@ public class Test2 {
     }
 
     @Test
+    public void test409(){
+        S409 s409 = new S409();
+        System.out.println(s409.longestPalindrome("aaaAaaaa"));
+    }
+
+    @Test
     public void test2() {
 //        ListNode a1 = new ListNode(2);
 //        ListNode a2 = new ListNode(4);
