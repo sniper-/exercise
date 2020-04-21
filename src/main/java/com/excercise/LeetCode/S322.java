@@ -1,5 +1,7 @@
 package com.excercise.LeetCode;
 
+import java.util.Arrays;
+
 /**
  * ClassName: S322
  * Version:
@@ -13,23 +15,20 @@ public class S322 {
     public S322() {
     }
 
-
     public int coinChange(int[] coins, int amount) {
+        int max = amount + 1;
+
         int[] dp = new int[amount+1];
-        for(int i=0;i<dp.length;i++){
-            dp[i] = Integer.MAX_VALUE;
-        }
-        for(int coin : coins){
-            dp[coin] = 1;
-        }
-        for(int i=0;i<=amount;i++){
+        Arrays.fill(dp, max);
+        dp[0] = 0;
+        for(int i=1;i<=amount;i++){
             for(int coin : coins){
-                if(i+coin<=amount) {
-                    dp[i + coin] = Math.min(dp[i + coin], dp[i] + 1);
+                if(i>=coin) {
+                    dp[i] = Math.min(dp[i-coin]+1, dp[i]);
                 }
             }
         }
-        return (dp[amount]==Integer.MAX_VALUE) ? dp[amount] : -1;
+        return dp[amount]<=amount? dp[amount] : -1;
     }
     /**
      * Description: 暴力递归
