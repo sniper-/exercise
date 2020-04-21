@@ -24,6 +24,19 @@ public class Test2 {
     }
 
     @Test
+    public void test322(){
+        S322 s322 = new S322();
+        int[] coins = {1,2,5};
+        System.out.println(s322.coinChange(coins, 11));
+    }
+
+    @Test
+    public void test516(){
+        S516 s516 = new S516();
+        System.out.println(s516.longestPalindromeSubseq("bbbab"));
+    }
+
+    @Test
     public void test2() {
 //        ListNode a1 = new ListNode(2);
 //        ListNode a2 = new ListNode(4);

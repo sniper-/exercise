@@ -50,4 +50,13 @@ public class Test_1021 {
         int[] in = {1,2,4,3,5,4,7,2};
         System.out.println(s673.findNumberOfLIS(in));
     }
+
+    @Test
+    public void test5(){
+        S5 s5 = new S5();
+        String s = "baad";
+
+        System.out.println(s5.longestPalindrome(s));
+//        System.out.println(s.substring(1,2));
+    }
 }

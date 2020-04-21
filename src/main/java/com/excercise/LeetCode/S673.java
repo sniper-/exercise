@@ -32,7 +32,6 @@ public class S673 {
                         snums[i]++;
                     }
                 }
-
             }
         }
 
