@@ -1,8 +1,8 @@
 package com.excercise.LeetCode;
 
+import com.excercise.LeetCode.Exercise.S650;
 import org.junit.Test;
 
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 
 import java.util.Map;

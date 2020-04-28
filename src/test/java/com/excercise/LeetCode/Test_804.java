@@ -1,9 +1,7 @@
 package com.excercise.LeetCode;
 
+import com.excercise.LeetCode.Exercise.S804;
 import org.junit.Test;
-
-import java.util.HashSet;
-import java.util.Set;
 
 public class Test_804 {
     S804 s804 = new S804();

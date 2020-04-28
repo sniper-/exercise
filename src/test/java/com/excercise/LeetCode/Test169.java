@@ -1,5 +1,6 @@
 package com.excercise.LeetCode;
 
+import com.excercise.LeetCode.Exercise.S169;
 import org.junit.Test;
 
 /**
@@ -21,7 +22,7 @@ public class Test169 {
     public void test169() {
         int src1[] = {6, 5, 5};
 //        int res = s169.majorityElementSort(src1);
-        int res = s169.majorityElementVoat(src1);
-        System.out.println(res);
+//        int res = s169.majorityElementVoat(src1);
+//        System.out.println(res);
     }
 }
