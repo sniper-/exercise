@@ -1,6 +1,8 @@
 package com.excercise.LeetCode;
 
-import com.excercise.LeetCode.Exercise.*;
+import com.excercise.LeetCode.Exercise.DP.S322;
+import com.excercise.LeetCode.Exercise.DP.S409;
+import com.excercise.LeetCode.Exercise.DP.S516;
 import org.junit.Test;
 
 /**
@@ -26,7 +28,7 @@ public class Test2 {
     public void test322(){
         S322 s322 = new S322();
         int[] coins = {1,2,5};
-        System.out.println(s322.coinChange(coins, 11));
+        System.out.println(s322.coinChange(coins, 100));
     }
 
     @Test

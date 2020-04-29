@@ -1,4 +1,4 @@
-package com.excercise.LeetCode.Exercise;
+package com.excercise.LeetCode.Exercise.DP;
 
 public class S409 {
     public int longestPalindrome(String s) {

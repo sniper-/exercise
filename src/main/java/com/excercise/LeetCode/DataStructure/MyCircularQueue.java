@@ -80,8 +80,8 @@ public class MyCircularQueue {
 
     /** Insert an element into the circular queue. Return true if the operation is successful. */
     public boolean enQueue(int value) {
-        if(isFull()) return false;
-        if(isEmpty()) head=0;
+        if(isFull()){ return false;}
+        if(isEmpty()){ head=0;}
         tail = (tail+1)%size;
         q[tail] = value;
         return true;
@@ -101,13 +101,13 @@ public class MyCircularQueue {
 
     /** Get the front item from the queue. */
     public int Front() {
-        if(isEmpty()) return -1;
+        if(isEmpty()){ return -1;}
         return q[head];
     }
 
     /** Get the last item from the queue. */
     public int Rear() {
-        if(isEmpty()) return -1;
+        if(isEmpty()){ return -1;}
         return q[tail];
     }
 

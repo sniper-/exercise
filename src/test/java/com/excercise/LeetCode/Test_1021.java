@@ -1,6 +1,8 @@
 package com.excercise.LeetCode;
 
 import com.excercise.LeetCode.Exercise.*;
+import com.excercise.LeetCode.Exercise.DP.S1035;
+import com.excercise.LeetCode.Exercise.DP.S5;
 import org.junit.Test;
 
 /**

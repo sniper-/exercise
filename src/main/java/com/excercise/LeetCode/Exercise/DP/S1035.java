@@ -1,4 +1,4 @@
-package com.excercise.LeetCode.Exercise;
+package com.excercise.LeetCode.Exercise.DP;
 
 /**
  * ClassName: S1035
