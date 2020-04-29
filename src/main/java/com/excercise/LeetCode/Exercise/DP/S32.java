@@ -17,8 +17,8 @@ public class S32 {
     }
 
     //有效括号数量
-    public int sumValidParentheses(String s) {
-        int cnt = 0;
+//    public int sumValidParentheses(String s) {
+//        int cnt = 0;
 //        Stack<Character> stack = new Stack<>();
 //        for(char c : s.toCharArray()){
 //            if(c == '('){
@@ -28,32 +28,37 @@ public class S32 {
 //                cnt+=2;
 //            }
 //        }
-        return cnt;
-    }
+//        return cnt;
+//    }
 
-    public int longestValidParentheses(String s) {
-        int maxlen = 0;
+    //暴力超时
+//    public int longestValidParentheses(String s) {
+//        int maxlen = 0;
+//
+//        for (int i = 0; i < s.length(); i++) {
+//            for (int j = i + 1; j < s.length(); j++) {
+//                int cnt = 0;
+//                Stack<Character> stack = new Stack<>();
+//                for (int k = i; k <= j; k++) {
+//                    if (s.charAt(k) == '(') {
+//                        stack.push(s.charAt(k));
+//                    } else if (!stack.empty() && stack.peek() == '(') {
+//                        stack.pop();
+//                        cnt += 2;
+//                    } else {
+//                        cnt = 0;
+//                        break;
+//                    }
+//                }
+//                if (stack.empty()) {
+//                    maxlen = Math.max(maxlen, cnt);
+//                }
+//            }
+//        }
+//
+//        return maxlen;
+//    }
 
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = i + 1; j < s.length(); j++) {
-                int cnt = 0;
-                Stack<Character> stack = new Stack<>();
-                for (int k = i; k < j; k++) {
-                    if (s.charAt(k) == '(') {
-                        stack.push(s.charAt(k));
-                    } else if (s.charAt(k) == ')' && !stack.empty()) {
-                        stack.pop();
-                        cnt += 2;
-                    }
-                }
-                if (stack.empty()) {
-                    maxlen = Math.max(maxlen, cnt);
-                }
-            }
-        }
-
-        return maxlen;
-    }
-
+    
 
 }
