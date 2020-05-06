@@ -2,6 +2,7 @@ package com.excercise.LeetCode.Exercise;
 
 import com.excercise.LeetCode.Exercise.DP.S32;
 import com.excercise.LeetCode.Exercise.DP.S5;
+import com.excercise.LeetCode.Exercise.DP.S91;
 import org.junit.Test;
 
 /**
@@ -58,5 +59,12 @@ public class Test1_100 {
         String in = ")()())";
 //        String in = "(()";
 //        System.out.println(s32.longestValidParentheses(in));
+    }
+
+    @Test
+    public void test91(){
+        S91 s91 = new S91();
+        System.out.println((int)("226").charAt(1));
+        System.out.println(s91.numDecodings("226"));
     }
 }
